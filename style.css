@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    opacity: 2;
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    /* padding: 30px; */
+}
+
+.western {
+    position: absolute;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+    left: 520px;
+    bottom: 50px;
+    z-index: -1;
+}
+
+.slot {
+    width: 100px;
+    height: 100px;
+    background-color: goldenrod;
+    padding: 10px;
+    /* display: inline-block; */
+}
+.blauround {
+    position: fixed;
+    right: 120px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px black solid;
+    background-color: rgb(135, 206, 250);
+    bottom: 400px;
+}
+.cowboyblau {
+    position: fixed;
+    right: 100px;
+    height: 80px;
+    bottom: 300px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.redround {
+    position: fixed;
+    left: 110px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px black solid;
+    background-color: red;
+    bottom: 400px;
+}
+
+.cowboyred {
+    position: fixed;
+    left: 100px;
+    height: 80px;
+    bottom: 300px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#gameover {
+    height: 100px;
+    position: fixed;
+    top: 100px;
+    left: -2050px;
+}
+
+.winner {
+    bottom: 240px;
+    position: fixed;
+    left: -1111px;
+    font-size: 60px;
+    font-size: 30px;
+    left: -1111px;
+    color: blue;
+}
+
+.hole {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.slot.cowboy1 .hole {
+    background-color: red;
+}
+
+.slot.cowboy2 .hole {
+    background-color: rgb(135, 206, 250);
+}
