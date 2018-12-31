@@ -16,5 +16,5 @@ Game can look and work however you like but it must follow these basic rules.
 
 
 
-#### My [solution](https://github.com/doctor-uz/Game-ConnectFour).
+#### My [solution](https://doctor-uz.github.io/).
 
